@@ -13,7 +13,7 @@ public class CheckArmstrongNumber {
         while (n > 0) {
             int rem = n % 10;
             n = n/10;
-            sum = sum + rem*rem*rem;
+            sum = sum + (rem*rem*rem);
         }
         return (sum == orignal);
     }
