@@ -1,8 +1,6 @@
-// Demofile (For Execution check & Testings)
-
 import java.util.Scanner;
 
-public class DemoFile {
+public class PalindromeChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
